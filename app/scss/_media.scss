@@ -1,0 +1,280 @@
+@media (max-width: 1400px) {
+	.logo {
+		width: 200px;
+	}
+	.tagline {
+		width: 100px;
+		font-size: 12px;
+  	}
+	.search__input.input-active {
+		width: 498px;
+  	}
+	.menu__item {
+		padding: 19px 35px 0;
+		position: relative;
+  	}
+}
+
+@media (max-width: 1200px) {
+	.header__street,
+	.footer__street {
+		flex-direction: column;
+	}
+	.menu {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.menu__list {
+		width: 100%;
+		order: 3;
+		justify-content: space-between;
+	}
+	.search {
+		order: 2;
+	}
+	.header__street {
+		margin-right: auto;
+	}
+	.adress {
+		margin-right: 0;
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.tagline {
+		margin-right: auto;
+  	}
+	.logo {
+		margin-right: 15px;
+	}
+	.header__btn {
+		margin-right: auto;
+	}
+	.menu__item:not(:last-child):after {
+		right: -25px;
+	}
+	.benefits {
+		padding: 70px 0;;
+  	}
+	.benefits__title {
+		font-size: 42px;
+		span {
+			font-size: 65px;
+		}
+	}
+	.benefits__inner {
+		flex-wrap: wrap;
+	}
+	.benefits__item {
+		margin-bottom: 15px;
+	}
+	.title {
+		font-size: 46px;
+	}
+	.title span {
+		font-size: 68px;
+  	}
+	.categories__inner {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+  	}
+}
+
+@media (max-width: 1050px) {
+	.title span {
+		font-size: 54px;
+		top: 15px;
+  	}
+}
+
+@media (max-width: 992px) {
+	.header__top {
+		flex-wrap: wrap;
+	}
+	.header__street {
+		width: 100%;
+		margin-right: 0;
+		align-items: flex-start;
+		margin-bottom: 15px;
+	}
+	.logo {
+		margin-bottom: 15px;
+	}
+	.search__input.input-active {
+		width: 350px;
+  	}
+	.menu__item {
+		padding: 15px 14px 0;
+		&:after {
+			display: none;
+		}
+	}
+	.menu__link {
+		padding-bottom: 10px;
+	}
+	.footer-menu__item:not(:last-child) {
+		padding-right: 0;
+		border-right: none;
+  	}
+	.footer__inner {
+		flex-wrap: wrap;
+		padding: 0 0 40px 0;
+	}
+	.footer__logo {
+		width: 100%;
+    	margin-bottom: 15px;
+	}
+	.benefits__title span {
+		font-size: 58px;
+  	}
+}
+
+@media (max-width: 890px) {
+	.categories__box {
+		flex-wrap: wrap;
+	}
+	.сategories__title {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	.сategories__title span {
+		width: 80%;
+		margin-bottom: 25px;
+		white-space: unset;
+	}
+}
+
+@media (max-width: 800px) {
+	.categories__inner {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+  	}
+	.categories__item {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 700px) {
+	
+}
+
+@media (max-width: 668px) {
+	.menu__list {
+		flex-direction: column;
+	}
+	.footer-menu__list {
+		flex-direction: column;
+	}
+	.footer-menu__item {
+		margin-bottom: 15px;
+	}
+	.search__input.input-active {
+		width: 200px;
+  	}
+	.catalog {
+		padding: 20px 40px;
+	}
+	.footer__inner {
+		justify-content: center;
+  	}
+	.footer__logo {
+		display: flex;
+		justify-content: center;
+	}
+	.footer__icons {
+		width: 100%;
+		margin-bottom: 15px;
+		display: flex;
+		justify-content: center;
+	}
+	.footer__icon {
+		padding: 0 5px;
+	}
+	.footer__street {
+		margin-bottom: 15px;
+	}
+	.benefits__title {
+		font-size: 38px;
+  	}
+	.benefits__title span {
+		font-size: 46px;
+    	top: 15px;
+  	}
+}
+
+@media (max-width: 595px) {
+	.benefits__inner {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 576px) {
+	.header__top {
+		flex-direction: column;
+  	}
+	.logo {
+		margin-right: 0;
+	}
+	.tagline {
+		margin-right: 0;
+		margin-bottom: 15px;
+		width: 100%;
+		text-align: center;
+  	}
+	.header__btn {
+		margin-right: 0;
+		margin-bottom: 15px;
+  	}
+	.header__street {
+		align-items: center;
+	}
+	.search {
+		position: static;
+	}
+	.catalog {
+		width: 100%;
+		justify-content: center;
+	}
+	.footer__bottom {
+		flex-wrap: wrap;
+	}
+	.footer__copy {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.benefits__title span {
+		font-size: 34px;
+		line-height: 43px;
+    	top: 31px;
+	}
+	.benefits__title {
+		font-size: 32px;
+		margin-bottom: 90px;
+	}
+}
+
+@media (max-width: 450px) {
+	.categories__item {
+		width: 300px;
+	}
+	.categories__item-wrapper {
+		padding: 30px 15px;
+  	}
+	.categories__item-img {
+		position: absolute;
+		top: 95px;
+		left: 22px;
+  	}
+}
+
+@media (max-width: 397px) {
+	.benefits__title {
+		line-height: 1;
+		font-size: 32px;
+  	}
+	.benefits__title span {
+		font-size: 34px;
+		top: 15px;
+  	}
+}
